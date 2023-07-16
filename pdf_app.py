@@ -71,7 +71,8 @@ if submit:
 
     #pdf = pdfkit.from_string(html, False)
     #pdf = pdfkit.from_string(html, "out2.pdf", configuration=config) #remove "out.pdf" if you want to let student to upload the pdf
-    pdf = pdfkit.from_string(html , configuration=config, options={"enable-local-file-access": ""})
+    #pdf = pdfkit.from_string(html , configuration=config, options={"enable-local-file-access": ""})
+    pdf = pdfkit.from_string(html , False)
     st.balloons()
 
     #right.success("Your template successfully generated!")
