@@ -1,7 +1,7 @@
 # Econ 3133 News Analysis HW01
 import pdfkit
-path_wkhtmltopdf = r'C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe'
-config = pdfkit.configuration(wkhtmltopdf=path_wkhtmltopdf)
+#path_wkhtmltopdf = r'C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe'
+#config = pdfkit.configuration(wkhtmltopdf=path_wkhtmltopdf)
 from jinja2 import Environment, PackageLoader, select_autoescape, FileSystemLoader
 from datetime import date
 import streamlit as st
